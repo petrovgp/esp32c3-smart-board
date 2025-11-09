@@ -1,0 +1,31 @@
+Designator	Quantity	Value	Footprint	Package	MPN
+"C1, C14, C16, C17, C23, C24, C7"	7	10u	C_0402_1005Metric	smt	Unpolarized capacitor
+"C10, C11, C15, C18, C2, C20, C22, C3, C4, C5, C6"	11	100n	C_0402_1005Metric	smt	Unpolarized capacitor
+"C12, C13"	2	3.3p	C_0402_1005Metric	smt	Unpolarized capacitor
+C19	1	10n	C_0402_1005Metric	smt	Unpolarized capacitor
+C21	1	2.2n	C_0402_1005Metric	smt	Unpolarized capacitor
+"C8, C9"	2	14p	C_0402_1005Metric	smt	Unpolarized capacitor
+D1	1	RED	LED_0402_1005Metric	smt	Light emitting diode
+D2	1	GREEN	LED_0402_1005Metric	smt	Light emitting diode
+D3	1	STPS0560Z	D_SOD-123	smt	Schottky diode
+J1	1	USB_C_Receptacle_USB2.0_16P	USB_C_16P_TopMnt_Horizontal	smt	USB 2.0-only 16P Type-C connector
+L1	1	2n	L_0402_1005Metric	smt	Inductor
+L2	1	2.2n	L_0402_1005Metric	smt	Inductor
+Q1	1	FS8205A	TSSOP-8_4.4x3mm_P0.65mm	smt	Dual NMOS
+Q2	1	BSS138	SOT-23-3	smt	NMOS
+Q3	1	IRLML6401	SOT-23-3	smt	PMOS
+R1	1	22R	R_0402_1005Metric	smt	Resistor
+"R10, R11, R12, R13, R14, R15, R16, R9"	8	1k	R_0402_1005Metric	smt	Resistor
+"R17, R21, R22"	3	100R	R_0402_1005Metric	smt	Resistor
+R18	1	10R	R_0402_1005Metric	smt	Resistor
+"R19, R2, R20, R3"	4	10k	R_0402_1005Metric	smt	Resistor
+"R4, R5"	2	5.1k	R_0402_1005Metric	smt	Resistor
+"R6, R7"	2	4.7k	R_0402_1005Metric	smt	Resistor
+R8	1	5k	R_0402_1005Metric	smt	Resistor
+"SW1, SW2"	2	SW_Push	SW_Push_1P1T_NO_CK_KMR2	smt	"Push button switch, generic, two pins"
+U1	1	ME6211C33M5G	SOT-23-5	smt	3.3V LDO regulator
+U2	1	ESP32-C3	QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm_ThermalVias	smt	ESP32-C3
+U3	1	TP4056	SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias	smt	Li-ion/LiPo single-cell battery charger
+U4	1	MPU-6050	QFN-24_4x4mm_P0.5mm	smt	"6-Axis Motion Sensor, Accelerometer"
+U5	1	DW01A	SOT-23-6	smt	Protection IC for Li-ion/LiPo battery
+Y1	1	SJK-7U-40.000	Crystal_SMD_3225-4Pin_3.2x2.5mm	smt	"Four pin crystal, GND on pins 2 and 4"
