@@ -2,7 +2,7 @@
 
 A compact, battery-powered ESP32-C3 development board designed in **KiCad 9**, integrating power management, motion sensing, and display support in a small form factor. Ideal for low-power IoT or wearable applications.
 
-## 🏢 Sponser of today's project - PCBWay!
+## 🏢 Sponsor of today's project - PCBWay!
 
 A huge thank you to PCBWay for sponsoring this project!
 
