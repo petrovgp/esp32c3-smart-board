@@ -50,4 +50,4 @@ Adjustment of production files might be needed. Please check carefully before pl
 |-----------|------|-------|-----------|
 | **v1.0** | Nov 2025 | Improper GC9A01 footprint (wrong pitch), improper PMOS power sharing footprint (SOT23-5 instead of SOT23-3), everything else verified as OK  | Not available on Github
 | **v1.1** | _Not manufactured_ | Updated GC9A01 footprint pitch, updated PMOS power sharing footprint, layout and silkscreen changes | Tagged v1.1 on Github
-| **v1.2** | _Manufactured and shipped_ | Layout and silkscreen changes | Tagged v1.2 on Github
+| **v1.2** | Dec 2025 | Layout and silkscreen changes | Tagged v1.2 on Github
