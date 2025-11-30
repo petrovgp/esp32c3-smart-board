@@ -2,6 +2,18 @@
 
 A compact, battery-powered ESP32-C3 development board designed in **KiCad 9**, integrating power management, motion sensing, and display support in a small form factor. Ideal for low-power IoT or wearable applications.
 
+## 🏢 Sponser of today's project - PCBWay!
+
+A huge thank you to PCBWay for sponsoring this project!
+
+PCBWay provided high-quality PCB fabrication and assembly support, helping bring the hardware from prototype to reality. Their fast turnaround times, excellent communication, and reliable manufacturing made a big difference in the development process.
+
+If you're looking for PCB manufacturing, assembly, CNC, or 3D-printing services, check out PCBWay **[here!](https://www.pcbway.com)**
+
+Production files for this project were created using PCBWay KiCAD plugin and they can be used in PCBWay PCB and PCBA services right away!
+
+Thanks again to PCBWay for supporting open-source hardware projects!
+
 ## 📸 Board design
 ![alt text](https://github.com/petrovgp/esp32c3-smart-board/blob/main/images/esp32c3-smart-board-front.jpg?raw=true)
 ![alt text](https://github.com/petrovgp/esp32c3-smart-board/blob/main/images/esp32c3-smart-board-back.jpg?raw=true)
@@ -37,7 +49,7 @@ A compact, battery-powered ESP32-C3 development board designed in **KiCad 9**, i
 - Exposed UART pins for debugging
 
 ## 🧩 Production files
-All design files were created in **KiCad 9** and production files have been exported with **PCBWay plugin**:
+All design files were created in **KiCad 9** and production files have been exported with **PCBWay plugin** (available **[here](https://github.com/pcbway/PCBWay-Plug-in-for-Kicad.git)**):
 - `schematics/` – full circuit schematics
 - `kicad/` – KiCAD 9 project files 
 - `kicad/production/` – ready-to-manufacture files (GERBERs + BOM)
