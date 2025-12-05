@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ESP32C3 Smart Board")
-		(date "2025-11-09")
-		(rev "2")
+		(date "2025-12-05")
+		(rev "1.3")
 	)
 	(lib_symbols
 		(symbol "Battery_Management:DW01A"
@@ -7173,6 +7173,16 @@
 		)
 		(uuid "1307da88-a900-4722-82a6-4784d0443a89")
 	)
+	(text "Addapt R7 and R6\nfor I2C Fast Mode"
+		(exclude_from_sim no)
+		(at 233.934 53.848 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "230dba0f-4ab0-4ab1-939d-65a3ab1abaac")
+	)
 	(text "Decoupling capacitors"
 		(exclude_from_sim no)
 		(at 178.816 44.196 0)
@@ -7507,12 +7517,6 @@
 		(uuid "70f139a7-d4fc-4d11-8dc5-952087f5ee1a")
 	)
 	(junction
-		(at 185.42 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "725d77cc-4948-4506-984f-38283e761569")
-	)
-	(junction
 		(at 273.05 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7675,12 +7679,6 @@
 		(uuid "e4d02bf5-23e2-46d2-9acf-270a71e11a58")
 	)
 	(junction
-		(at 185.42 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6255eef-429d-4cd5-8561-391905bab534")
-	)
-	(junction
 		(at 168.91 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7803,16 +7801,6 @@
 			(type default)
 		)
 		(uuid "00876ef1-ed42-45e3-8bd4-72d40091699c")
-	)
-	(wire
-		(pts
-			(xy 191.77 53.34) (xy 191.77 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "013368db-8ea4-4f86-8fc1-39f3d48000fd")
 	)
 	(wire
 		(pts
@@ -8076,7 +8064,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 57.15) (xy 195.58 57.15)
+			(xy 200.66 67.31) (xy 194.31 67.31)
 		)
 		(stroke
 			(width 0)
@@ -8106,7 +8094,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 69.85) (xy 185.42 69.85)
+			(xy 185.42 69.85) (xy 200.66 69.85)
 		)
 		(stroke
 			(width 0)
@@ -8183,16 +8171,6 @@
 			(type default)
 		)
 		(uuid "25ed047c-70ca-46c9-ae97-70875ebcaf8d")
-	)
-	(wire
-		(pts
-			(xy 184.15 74.93) (xy 185.42 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25f764bd-e555-488c-a7f8-02b81d25c01b")
 	)
 	(wire
 		(pts
@@ -8626,6 +8604,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 77.47) (xy 195.58 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f487e8d-bea2-437d-9a02-0b39cf98f506")
+	)
+	(wire
+		(pts
 			(xy 78.74 153.67) (xy 78.74 154.94)
 		)
 		(stroke
@@ -8796,16 +8784,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 53.34) (xy 201.93 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6553eaaf-a6fa-4b63-af5a-885013b51590")
-	)
-	(wire
-		(pts
 			(xy 219.71 25.4) (xy 222.25 25.4)
 		)
 		(stroke
@@ -8816,7 +8794,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 67.31) (xy 185.42 67.31)
+			(xy 186.69 67.31) (xy 185.42 67.31)
 		)
 		(stroke
 			(width 0)
@@ -9406,16 +9384,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 66.04) (xy 195.58 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95c8962e-cc82-4093-a70a-c3bc969a9764")
-	)
-	(wire
-		(pts
 			(xy 25.4 85.09) (xy 25.4 77.47)
 		)
 		(stroke
@@ -9433,6 +9401,16 @@
 			(type default)
 		)
 		(uuid "9790fe09-a70b-41ae-be7f-8432140ca036")
+	)
+	(wire
+		(pts
+			(xy 185.42 74.93) (xy 195.58 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9978a385-552d-4a9d-a8f7-c97a2d06680f")
 	)
 	(wire
 		(pts
@@ -9523,16 +9501,6 @@
 			(type default)
 		)
 		(uuid "a1b282da-fcf1-4fee-8fe6-66f2a1543f13")
-	)
-	(wire
-		(pts
-			(xy 191.77 63.5) (xy 191.77 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3d38bdf-4369-443a-a8f7-667cbf22198d")
 	)
 	(wire
 		(pts
@@ -9746,16 +9714,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 77.47) (xy 195.58 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4e19246-79e1-4d3a-9cac-97bd6b4122fd")
-	)
-	(wire
-		(pts
 			(xy 168.91 24.13) (xy 179.07 24.13)
 		)
 		(stroke
@@ -9873,16 +9831,6 @@
 			(type default)
 		)
 		(uuid "bd2b6bc7-6677-41db-92bb-5ab933cb7f6a")
-	)
-	(wire
-		(pts
-			(xy 184.15 77.47) (xy 185.42 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd4871ba-af4f-4323-8ec1-cc7728b34425")
 	)
 	(wire
 		(pts
@@ -10476,16 +10424,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 57.15) (xy 195.58 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9894135-b7fe-42dd-be4b-05830ebb9bb5")
-	)
-	(wire
-		(pts
 			(xy 41.91 121.92) (xy 49.53 121.92)
 		)
 		(stroke
@@ -10503,16 +10441,6 @@
 			(type default)
 		)
 		(uuid "facfc3d7-0aae-403c-b8bb-cc5dec529125")
-	)
-	(wire
-		(pts
-			(xy 185.42 74.93) (xy 195.58 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fafa3e45-f68a-4801-901a-62a260d3bc6f")
 	)
 	(wire
 		(pts
@@ -10725,7 +10653,7 @@
 		(uuid "55b31cea-44e5-4906-bf89-899d1849c357")
 	)
 	(label "U0RX"
-		(at 201.93 53.34 180)
+		(at 200.66 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10965,7 +10893,7 @@
 		(uuid "fd0f8a53-e157-4d21-ad80-b507df9ea6df")
 	)
 	(label "U0TX"
-		(at 201.93 57.15 180)
+		(at 200.66 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14562,7 +14490,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "User:ESPRESSIF_ESP32_MIFA_2.4GHz_Right"
+		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Right"
 			(at 53.34 19.05 0)
 			(effects
 				(font
@@ -15749,7 +15677,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 195.58 62.23 180)
+		(at 190.5 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15758,25 +15686,23 @@
 		(fields_autoplaced yes)
 		(uuid "93f7eb6f-c8d6-42cc-93f6-117214438b6b")
 		(property "Reference" "R21"
-			(at 198.12 60.9599 0)
+			(at 190.5 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "100R"
-			(at 198.12 63.4999 0)
+			(at 190.5 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 197.358 62.23 90)
+			(at 190.5 69.088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15785,7 +15711,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 62.23 0)
+			(at 190.5 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15794,7 +15720,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 195.58 62.23 0)
+			(at 190.5 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19344,76 +19270,6 @@
 			(project ""
 				(path "/d9fab985-9caf-4e8c-a371-ec94c3762aca"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 191.77 59.69 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb0d386e-fa05-4557-9a40-956ef77fb59a")
-		(property "Reference" "R22"
-			(at 189.23 60.9601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100R"
-			(at 189.23 58.4201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 189.992 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 191.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f9833cb4-52ac-4305-8be2-35d80180a885")
-		)
-		(pin "1"
-			(uuid "c809386d-76f9-492b-85c3-ee3e161f4c89")
-		)
-		(instances
-			(project ""
-				(path "/d9fab985-9caf-4e8c-a371-ec94c3762aca"
-					(reference "R22")
 					(unit 1)
 				)
 			)
