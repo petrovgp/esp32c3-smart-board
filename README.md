@@ -25,6 +25,7 @@ Thanks again to PCBWay for supporting open-source hardware projects!
 ### ⚡ Core
 - **ESP32-C3** RISC-V microcontroller with Wi-Fi and BLE 5.0
 - Compact **42 × 45 mm** PCB designed in KiCad 9
+  - 4 layer stackup: L1 Signal | L2 Ground | L3 Ground | L4 Signal + Power
 - Integrated **Inverted-F antenna** for stable wireless performance
 
 ### 🔋 Power System
